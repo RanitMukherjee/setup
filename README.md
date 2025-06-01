@@ -1,4 +1,4 @@
-# Setup
+# setup
 
 A bash script to quickly set up a modern development environment on Ubuntu.
 

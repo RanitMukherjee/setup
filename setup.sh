@@ -52,6 +52,11 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/package
 sudo apt update
 sudo apt install -y code
 
+# --- Docker System Dependencies ---
+echo "Installing Docker dependencies..."
+sudo apt update
+sudo apt install -y apt-transport-https ca-certificates curl software-properties-common
+
 # --- 5. Install Docker Engine (official) ---
 echo "Installing Docker..."
 sudo apt remove -y docker docker-engine docker.io containerd runc || true

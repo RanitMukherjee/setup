@@ -1,6 +1,6 @@
 # setup
 
-A bash script to quickly set up a modern development environment on Ubuntu.
+A bash script to quickly set up a modern development environment on Ubuntu. Script to enable flatpak provided as well.
 
 ## What Will Be Installed
 

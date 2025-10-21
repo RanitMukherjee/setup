@@ -16,13 +16,13 @@ A bash script to quickly set up a modern development environment on Ubuntu.
 Run this command in your terminal (wget is available by default on Ubuntu):
     
     
-    wget -O- https://github.com/RanitMukherjee/setup/raw/main/set-up.sh | bash
+    wget -O- https://github.com/RanitMukherjee/setup/raw/main/setup.sh | bash
     
 
 Or, to review before running:
     
     
-    wget https://github.com/RanitMukherjee/setup/raw/main/set-up.sh
+    wget https://github.com/RanitMukherjee/setup/raw/main/setup.sh
     chmod +x setup.sh
     ./setup.sh
 
